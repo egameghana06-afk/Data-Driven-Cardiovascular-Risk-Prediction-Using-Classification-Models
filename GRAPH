@@ -1,0 +1,11 @@
+names = list(models.keys())
+scores = []
+
+for name, m in models.items():
+    m.fit(X_train, y_train)
+    pred = m.predict(X_test)
+    scores.append(accuracy_score(y_test, pred))
+
+plt.bar(names, scores)
+plt.title("Model Comparison")
+plt.savefig("static/model_comparison.png")
