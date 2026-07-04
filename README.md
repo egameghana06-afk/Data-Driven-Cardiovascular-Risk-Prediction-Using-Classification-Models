@@ -1,6 +1,5 @@
-# Data-Driven-Cardiovascular-Risk-Prediction-Using-Classification-Models
 
-# 🫀 Data-Driven Cardiovascular Risk Prediction Using Classification Models
+#  Data-Driven Cardiovascular Risk Prediction Using Classification Models
 
 ## 📌 Overview
 This project focuses on predicting the risk of cardiovascular (heart) disease using Machine Learning classification models. The system analyzes patient health data and determines whether a person is at **high risk or low risk** of developing heart disease.
